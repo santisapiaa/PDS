@@ -7,8 +7,6 @@ public class Universidad {
     private List<Alumno> alumnos = new ArrayList<>();
     private List<Carrera> carreras = new ArrayList<>();
 
-
-
     public void agregarAlumno(Alumno a){
         this.alumnos.add(a);
     }
