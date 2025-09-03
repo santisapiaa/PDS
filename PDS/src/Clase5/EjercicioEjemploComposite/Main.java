@@ -1,7 +1,7 @@
-package Clase5.EjercicioEjemplo;
+package Clase5.EjercicioEjemploComposite;
 
-import Clase5.EjercicioEjemplo.vendedores.EquipoDeVendedores;
-import Clase5.EjercicioEjemplo.vendedores.VendedorIndividual;
+import Clase5.EjercicioEjemploComposite.vendedores.EquipoDeVendedores;
+import Clase5.EjercicioEjemploComposite.vendedores.VendedorIndividual;
 
 public class Main {
     public static void main(String[] args) {

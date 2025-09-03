@@ -1,8 +1,8 @@
-package Clase5.EjercicioEjemplo;
+package Clase5.EjercicioEjemploComposite;
 
 import java.util.HashSet;
 
-import Clase5.EjercicioEjemplo.vendedores.IVendedor;
+import Clase5.EjercicioEjemploComposite.vendedores.IVendedor;
 
 public class Empresa {
 

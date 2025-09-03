@@ -1,4 +1,4 @@
-package Clase5.EjercicioEjemplo.vendedores;
+package Clase5.EjercicioEjemploComposite.vendedores;
 
 public class VendedorIndividual implements IVendedor{
 
