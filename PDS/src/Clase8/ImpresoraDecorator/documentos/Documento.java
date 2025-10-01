@@ -1,4 +1,4 @@
-package Clase8.documentos;
+package Clase8.ImpresoraDecorator.documentos;
 
 public interface Documento {
 
