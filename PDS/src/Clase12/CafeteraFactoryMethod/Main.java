@@ -1,15 +1,24 @@
 package Clase12.CafeteraFactoryMethod;
 
+import Clase12.CafeteraFactoryMethod.creators.CafeCreator;
+import Clase12.CafeteraFactoryMethod.creators.CafeteraNespresso;
+import Clase12.CafeteraFactoryMethod.creators.CafeteraVending;
+import Clase12.CafeteraFactoryMethod.productos.Cafe;
+
 import java.util.HashSet;
 import java.util.LinkedHashSet;
-import java.util.SortedSet;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        HashSet<Cafe> cafesConsumidos = new HashSet<>();
+        CafeCreator nespresso = new CafeteraNespresso();
+        CafeCreator vending = new CafeteraVending();
 
+        // Productos
+        HashSet<Cafe> cafesConsumidos = new HashSet<>();
+        cafesConsumidos.add(nespresso.preparar());
+        cafesConsumidos.add(vending.preparar());
 
         // Calcular cafe consumido en cm3
         int cafeConsumidoTotal = cafesConsumidos
@@ -23,8 +32,7 @@ public class Main {
 
 
         // Tomar un cafe
-
+        
 
     }
-
 }

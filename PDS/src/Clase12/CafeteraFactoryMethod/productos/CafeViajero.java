@@ -1,6 +1,6 @@
-package Clase12.CafeteraFactoryMethod;
+package Clase12.CafeteraFactoryMethod.productos;
 
-public class CafeDeCapsula implements Cafe{
+public class CafeViajero implements Cafe{
 
     @Override
     public int medida() {

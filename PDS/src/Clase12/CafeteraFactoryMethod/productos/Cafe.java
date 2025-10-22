@@ -1,4 +1,4 @@
-package Clase12.CafeteraFactoryMethod;
+package Clase12.CafeteraFactoryMethod.productos;
 
 public interface Cafe {
 
